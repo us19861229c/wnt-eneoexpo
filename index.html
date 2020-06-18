@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W'n'T | Inglês</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--CSS : acrescentando estilos próprios-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,13 +18,92 @@
     <main>
         <!-- Todo o conteúdo da aula de inglês Walk'n'Talk #35 -->
         <!-- Aqui ficará a capa: uma imagem referente ao assunto da aula, o número da aula e a bandeira do idioma -->
-        <section id="manchete"></section>
-        <!-- Aqui ficará a introdução ao material: Título da aula e uma abertura-->
-        <section id="intro_aula"></section>
-        <!-- Aqui ficará a  lição: Audio e transcrição do diálogo em inglês-->
-        <section id="licao"></section>
+        <section class="container-fluid">
+          <div class="row manchete">
+            <div class="col-5 capa-imagem position-fixed">
+              <div class="bandeira-redonda">
+                <img src="https://image.flaticon.com/icons/svg/197/197484.svg" alt="bandeira americana" width="120px">
+                <span class="edic">#35</span>
+              </div>
+              <div class="wnt-redonda">
+                <h2 class="walkntalk titulo-cats">WALK 'N' TALK <br><span class="titulo-parties">LevelUp</span></h2>
+              </div>
+            </div>
+            <div class="col-7 offset-5 fundo rhavicon">
+              <div class="detalhes-capa">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1><span class="titulo titulo-cats">CATS</span> HAVE <span class="titulo titulo-parties">PARTIES</span> TOO</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Aqui ficará a introdução ao material: Título da aula e uma abertura-->
+              <section class="container-fluid conteudo">
+                  <p><span class="helloeveryone">Hello everyone!</span></p>
+                  <p>In this episode of Walk ‘n’ Talk Level Up you learned new vocabulary and new
+                    expressions! Now you can continue studying, by checking out the dialogue,
+                    the expressions with written explanations, and by repeating all the sentences!</p>
+              </section>
+              <!-- Aqui ficará a  lição: Audio e transcrição do diálogo em inglês-->
+              <section id="licao">
+                <iframe src="https://anchor.fm/rhavi-carneiro/embed/episodes/Walk-n-Talk-Level-Up-35---Cats-have-parties-too-ef8iq4" width="100%" frameborder="0" scrolling="no"></iframe>
+                <div class="conteudo dialogo">
+                  <h3 class="titulo-cats">DIALOGUE</h3>
+                  <p>A: Hey Bella, the girls and I are going dancing tonight. Wanna join us?</p>
+                  <p>B: Oh, sorry. I already have plans.</p>
+                  <p>A: Yeah? What are you doing?</p>
+                  <p>B: I’m throwing a party for my cat.</p>
+                  <p>A: What? Hey, if you don’t want to come out with us, you can tell us.</p>
+                  <p>You don’t have to make excuses.</p>
+                  <p>B: I’m not. It’s her birthday.</p>
+                  <p>A: You’re one oddball, girl.</p>
+                  <p>B: How dare you, Emily! I’m just a crazy cat lady</p>
+                </div>
+              </section>
+              <section id="vocabulario">
+                <div class="conteudo vocabulario">
+                  <h3 class="titulo-cats">NEW EXPRESSIONS</h3>
+                  <div class="novo-vocabulario">
+                    <p><span class="helloeveryone">What are you doing?</span></p>
+                    <p>A question using the present continuous structure to ask a question
+                      about the future. That structure can be used in affirmatives, negatives,
+                      and interrogative sentences, and its meaning will vary depending on the
+                      context.</p>
+                      <div class="exemplos-citados">
+                        <p class="font-weight-bolder">When are you leaving?</p>
+                        <p class="font-weight-bolder">I’m not working tomorrow.</p>
+                        <p class="font-weight-bolder">She’s going out tonight</p>
+                      </div>
+                  </div>
+                  <div class="novo-vocabulario">
+                    <p><span class="helloeveryone">Make excuses</span></p>
+                    <p>An expression that means to seek to lessen blame, try to justify, coming up with unjustifiable reasons to justify blame. </p>
+                      <div class="exemplos-citados">
+                        <p class="font-weight-bolder">I know you were lying, stop making excuses.</p>
+                        <p class="font-weight-bolder">She had to make excuses for being late again.</p>
+                      </div>
+                  </div>
+                  <div class="novo-vocabulario">
+                    <p><span class="helloeveryone">Oddball</span></p>
+                    <p>And adjective meaning a strange or eccentric person.</p>
+                      <div class="exemplos-citados">
+                        <p class="font-weight-bolder">She was painting with her hair, like the oddball that she is.</p>
+                        <p class="font-weight-bolder">We’re considered oddballs by our neighbors.</p>
+                      </div>
+                  </div>
+                  <p>Listen to this episode as many times as you want, and follow it up with
+                    this file. This way, you’ll be able to memorize all the expressions and
+                    vocabulary you’ve learned! You’ll also be able to use it in conversations
+                    in the future. And remember, the more contact you have with English,
+                    the better. So make sure to tune in for our next episode!</p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
         <!--Aqui ficará vocabulário: Novas expressões, explicações-->
-        <section id="vocabulario"></section>
     </main>
     <footer>
         <!-- Rodapé padrão da FluencyTv -->
